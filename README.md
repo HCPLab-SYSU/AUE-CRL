@@ -6,7 +6,7 @@ Implementation of paper:
   Technical Report.   
   Tao Pu, Tianshui Chen, Yuan Xie, Hefeng Wu, and Liang Lin.
 
-![Pipeline](./Images/Framework.pdf)
+![Pipeline](./Images/framework.pdf)
 
 ## Environment
 Ubuntu 16.04 LTS, Python 3.5, PyTorch 1.3   
@@ -54,13 +54,7 @@ python main.py --Model ResNet-101 --Experiment Fuse --Resume_Model <yourCheckpoi
 ## Citation
 
 ```
-@article{chen2020cross,
-  title={Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchmark and Adversarial Graph Learning},
-  author={Chen, Tianshui and Pu, Tao and Xie, Yuan and Wu, Hefeng and Liu, Lingbo and Lin, Liang},
-  journal={arXiv e-prints},
-  pages={arXiv--2008},
-  year={2020}
-}
+None
 
 ```
 
