@@ -2,7 +2,7 @@
 
 Implementation of paper:   
 
-- [AU-Expression  Knowledge  Constrained  Representation  Learningfor  Facial  Expression  Recognition](xxxx)   
+- [AU-Expression  Knowledge  Constrained  Representation  Learning for  Facial  Expression  Recognition](https://arxiv.org/abs/2012.14587)   
   Technical Report.   
   Tao Pu, Tianshui Chen, Yuan Xie, Hefeng Wu, and Liang Lin.
 
@@ -13,7 +13,6 @@ Ubuntu 16.04 LTS, Python 3.5, PyTorch 1.3
 
 ## Usage
 
-### Train 
 ```
 # Step 1: Train the branch of facial expression recognition
 python main.py --Model ResNet-101 --Experiment EM
@@ -54,8 +53,14 @@ python main.py --Model ResNet-101 --Experiment Fuse --Resume_Model <yourCheckpoi
 ## Citation
 
 ```
-None
-
+@misc{pu2020auexpression,
+      title={AU-Expression Knowledge Constrained Representation Learning for Facial Expression Recognition}, 
+      author={Tao Pu and Tianshui Chen and Yuan Xie and Hefeng Wu and Liang Lin},
+      year={2020},
+      eprint={2012.14587},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## Contributors
