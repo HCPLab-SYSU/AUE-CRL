@@ -3,7 +3,7 @@
 Implementation of paper:   
 
 - [AU-Expression  Knowledge  Constrained  Representation  Learning for  Facial  Expression  Recognition](https://arxiv.org/abs/2012.14587)   
-  Technical Report.   
+  IEEE International Conference on Robotics and Automation (ICRA), 2021.   
   Tao Pu, Tianshui Chen, Yuan Xie, Hefeng Wu, and Liang Lin.
 
 ![Pipeline](./Images/framework.pdf)
