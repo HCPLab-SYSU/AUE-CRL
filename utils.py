@@ -69,15 +69,15 @@ def BulidDataloader(args, flag='train'):
 
         if args.Distribute == 'Basic':
             if args.Aligned:
-                ImagePath = dataPath_prefix + '/RAF/basic/Image/aligned/'
-                LandmarkPath = dataPath_prefix + '/RAF/basic/Annotation/Landmarks_68_FAN_aligned/'
+                ImagePath =  '/content/drive/MyDrive/datasets/RAF/basic/Image/aligned/'
+                LandmarkPath =  '/content/drive/MyDrive/datasets/RAF/basic/Annotation/auto/'
             else:
-                ImagePath = dataPath_prefix + '/RAF/basic/Image/original/'
-                LandmarkPath = dataPath_prefix + '/RAF/basic/Annotation/Landmarks_68_FAN_bbox/'
+                ImagePath = '/content/drive/MyDrive/datasets/RAF/basic/Image/original/'
+                LandmarkPath = '/content/drive/MyDrive/datasets/RAF/basic/Annotation/auto'
 
-            Train_List = dataPath_prefix + '/RAF/basic/EmoLabel/list_patition_label.txt'
-            Test_List = dataPath_prefix + '/RAF/basic/EmoLabel/list_patition_label.txt'
-            BBoxsPath = dataPath_prefix + '/RAF/basic/Annotation/boundingbox/'
+            Train_List = '/content/drive/MyDrive/datasets/RAF/basic/EmoLabel/list_patition_label.txt'
+            Test_List = '/content/drive/MyDrive/datasets/RAF/basic/EmoLabel/list_patition_label.txt'
+            BBoxsPath = '/content/drive/MyDrive/datasets/RAF/basic/Annotation/boundingbox/'
 
         elif args.Distribute == 'Compound':
             if args.Aligned:
