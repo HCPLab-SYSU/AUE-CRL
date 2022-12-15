@@ -1,6 +1,6 @@
 # AU-Expression Knowledge Constrained Representation Learning for Facial Expression Recognition
 
-Implementation of paper: ![](https://visitor-badge.glitch.me/badge?page_id=HCPLab-SYSU.HCP-MLR-PL)   
+Implementation of paper: ![](https://visitor-badge.glitch.me/badge?page_id=HCPLab-SYSU.AUE-CRL)   
 
 - [AU-Expression  Knowledge  Constrained  Representation  Learning for  Facial  Expression  Recognition](https://ieeexplore.ieee.org/document/9561252)   
   IEEE International Conference on Robotics and Automation (ICRA), 2021.   
