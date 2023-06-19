@@ -1,6 +1,6 @@
 # AU-Expression Knowledge Constrained Representation Learning for Facial Expression Recognition
 
-Implementation of paper: ![](https://visitor-badge.glitch.me/badge?page_id=HCPLab-SYSU.AUE-CRL)   
+Implementation of paper: 
 
 - [AU-Expression  Knowledge  Constrained  Representation  Learning for  Facial  Expression  Recognition](https://ieeexplore.ieee.org/document/9561252)   
   IEEE International Conference on Robotics and Automation (ICRA), 2021.   
@@ -53,7 +53,7 @@ python main.py --Model ResNet-101 --Experiment Fuse --Resume_Model <yourCheckpoi
 ## Citation
 
 ```
-@article{pu2020auexpression,
+@article{Pu2020AUE-CRL,
 	title={AU-Expression Knowledge Constrained Representation Learning for Facial Expression Recognition},
 	author={Tao Pu and Tianshui Chen and Yuan Xie and Hefeng Wu and Liang Lin},
 	journal={ICRA},
