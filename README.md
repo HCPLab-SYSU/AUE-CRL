@@ -53,11 +53,14 @@ python main.py --Model ResNet-101 --Experiment Fuse --Resume_Model <yourCheckpoi
 ## Citation
 
 ```
-@article{Pu2020AUE-CRL,
-	title={AU-Expression Knowledge Constrained Representation Learning for Facial Expression Recognition},
-	author={Tao Pu and Tianshui Chen and Yuan Xie and Hefeng Wu and Liang Lin},
-	journal={ICRA},
-	year={2021}
+@inproceedings{Pu2021AUE-CRL,
+  author={Pu, Tao and Chen, Tianshui and Xie, Yuan and Wu, Hefeng and Lin, Liang},
+  title={Au-expression knowledge constrained representation learning for facial expression recognition},
+  booktitle={2021 IEEE international conference on robotics and automation (ICRA)},
+  year={2021},
+  pages={11154--11161},
+  publisher={IEEE},
+  doi={10.1109/ICRA48506.2021.9561252}
 }
 ```
 
